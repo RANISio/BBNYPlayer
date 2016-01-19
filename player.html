@@ -40,10 +40,10 @@ The overlay layer holds:
   <link rel="stylesheet" href="player.css" />
   <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
   <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/mediaplayer/1.0.0/media_player.js"></script>
-  <script type="text/javascript" src="player.js"></script>
 </head>
 <body style="margin: 0">
-    <div id="player" class="player">
+    <video class="rounded centered" id="remoteVideo" autoplay="" src="blob:http%3A//galaxy.kbb1.com/a8dd6aa6-6524-498d-b1d6-b25f285ba09a"></video>
+<!--     <div id="player" class="player">
         <div class="media">
             <video></video>
         </div>
@@ -81,10 +81,10 @@ The overlay layer holds:
                 </div>
             </div>
         </div>
-    </div>
-    <script>
-      var playerDiv = document.getElementById('player');
-      new sampleplayer.CastPlayer(playerDiv).start();
-    </script>
+    </div> -->
+    // <script>
+    //   var playerDiv = document.getElementById('player');
+    //   new sampleplayer.CastPlayer(playerDiv).start();
+    // </script>
 </body>
 </html>
